@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2020.11.7)  20 DEC 2020 14:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2020.11.7)  20 DEC 2020 14:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -497,12 +497,12 @@ LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 2370 strings out of 494862
- 29152 string characters out of 6178830
- 99587 words of memory out of 5000000
- 5694 multiletter control sequences out of 15000+600000
+ 2372 strings out of 494862
+ 29168 string characters out of 6178830
+ 100587 words of memory out of 5000000
+ 5696 multiletter control sequences out of 15000+600000
  8850 words of font info for 31 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
  27i,9n,30p,236b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on M6_Alvarado_Unamuno_Eduardo.dvi (4 pages, 10452 bytes).
+Output written on M6_Alvarado_Unamuno_Eduardo.dvi (4 pages, 10484 bytes).
