@@ -1,0 +1,22 @@
+% Encoding: UTF-8
+
+@Article{Agrawal2014,
+  author  = {Agrawal, S.,Biswas,R},
+  title   = {Virtual desktop in higher education institution: Energy efficiency of green computing},
+  journal = {4th International Conference on Communication Systems and Network Technologies},
+  year    = {2014},
+}
+
+@Article{Chroback2014,
+  author = {Chroback, P.},
+  title  = {Implementation of Virtual Desktop Infrastructure in academic laboratories},
+  year   = {2014},
+}
+
+@Article{Enrique2016,
+  author = {Enrique, C. \& Marín, M.},
+  title  = {Hacia la virtualización de escritorios para la entrega de ambientes académicos basados en DaaS.},
+  year   = {2016},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

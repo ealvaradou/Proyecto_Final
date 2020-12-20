@@ -1,0 +1,76 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Agrawal%
+}{%
+Agrawal%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+Agrawal2014}
+\APACinsertmetastar {%
+Agrawal2014}%
+\begin{APACrefauthors}%
+Agrawal, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Virtual desktop in higher education institution: Energy
+  efficiency of green computing} {Virtual desktop in higher education
+  institution: Energy efficiency of green computing}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{4th International Conference on Communication Systems
+  and Network Technologies}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Chroback%
+}{%
+Chroback%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+Chroback2014}
+\APACinsertmetastar {%
+Chroback2014}%
+\begin{APACrefauthors}%
+Chroback, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Implementation of Virtual Desktop Infrastructure in
+  academic laboratories} {Implementation of virtual desktop infrastructure in
+  academic laboratories}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computer Science and Information Systems}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Enrique%
+}{%
+Enrique%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+Enrique2016}
+\APACinsertmetastar {%
+Enrique2016}%
+\begin{APACrefauthors}%
+Enrique, M., C. \&~Marín.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Hacia la virtualización de escritorios para la entrega
+  de ambientes académicos basados en DaaS.} {Hacia la virtualización de
+  escritorios para la entrega de ambientes académicos basados en daas.}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computer Science and Informations Systems}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
