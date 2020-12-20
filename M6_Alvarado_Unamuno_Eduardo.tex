@@ -1,0 +1,121 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{apacite}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[dvips]{graphicx}
+\DeclareGraphicsExtensions{.png}
+\usepackage{multirow}
+\usepackage{float}
+\graphicspath{{img/}}
+\begin{document}
+\title{Optimizaci\'on de recursos inform\'aticos con soluciones de escritorios virtuales}
+\author{Alvarado Unamuno Eduardo}
+\date{\today}
+\maketitle
+\begin{bf}
+\begin{center}
+RESUMEN \\
+\end{center}
+\end{bf}
+El objetivo del presente trabajo de investigaci\'on es demostrar 
+el ahorro de energi\'ia y costo de la infraestructura a trav\'es 
+de una solucion de escritorios virtuales la investigaci\'on parte de los datos proporcionados 
+por la Universidad de Guayaquil y tomados experimentalmente, se presenta el an\'alisis de los 
+datos recopilados y se concluye que las soluciones de VDI permiten ahorro en el consumo de energ\'ia.\\   
+\\
+\begin{bf}
+Palabras claves:
+\end{bf}
+Virtualizaci\'on, Escritorios Virtuales, Computación Verde. \\
+\begin{bf}
+\begin{center}
+INTRODUCCION\\
+\end{center}
+\end{bf}
+En la actualidad los computadores se han convertido en una herramienta de 
+aprendizaje e investigaci'on en los establecimeintos educativos superiores,a a pesar de esto
+en algunas instituciones los recursoso son escasos, o presentan discontinuidad
+tecnol\'ogica, esto dificulta el proceso de aprendizaje y organizaci\'on de
+tareas del estudiante y en la investigaci\'on los docentes no cuentan con
+equipos con caracteristicas adecuados para este \'ambito.\\
+Desde el punto de vista de los estudiantes, investigadoes y docentes los laboratorios
+poseen recursos tecnol\'ogicos limitado, generando inconvenientes al momento
+de realizar pr\'acticas tanto en los estudiantes como en los docentes,
+lo cual no les permite mantener un control sobre la continuidad de desarrollo de su trabajo,
+en las materias que se dictan dichos laboratorios, es as\'i que, en el campo de informática, 
+las universidades tienen dificultad en transmitir la instrucci\'on practica a sus estudiantes, debido
+a la falta de laboratorios o infraestructuras tecnologicas apropiadas de aprendizaje, ademas las mismas
+deben destinar parte de su presupuesto para reemplazo de partes y equipamiento, soporte, mantenimiento y pagos
+del consumo de energ\'ia el\'ectrica de la infraestructura tecnol\'ogica de estos laboratorios.\\
+Como lo muestra la figura 1, los costos de mantenimiento y administraci\'on generaron el doble de costos de TI comparado
+con el costo de la adquisici\'on del servidorr y los costos de energ\'ia y refrigeraci\'on crecieron lo 
+suficiente como para acercarse a los costos de adquisici\'on de los servidores a nivel mundial.\\
+\\
+\\
+\begin{figure}[htb]
+\centering
+   \includegraphics[0cm,0cm][10cm,5cm]{figura-2.png}
+   \caption{Comparativo de costos de adquisici\'on, mantenimiento, energ\'ia el\'ectrica y enfriamiento}
+\label{Figura 1}
+\end{figure}
+\begin{bf}
+\begin{center}
+METODOLOGIA\\
+\end{center}
+\end{bf}
+El procesamiento de datos a lo largo del tiempo ha pasado por varias etapas,
+en sus inicios los centros de datos iniciaron procesando datos en grandes computadoras que
+trabajaban en forma centralizada, pero requer\'ian una alta inversion a la hora de 
+adquirirlas. Luego se desarrollaron computadoras con menor poder de procesamiento, pero m\'as
+econ\'omicas y  pequeñas que dominaron en el mercado procesando datos en forma distribuida. El
+concepto de procesamiento distribuido, permitio procesar informacion de manera m\'as econ\'omica 
+que su antecesor, pero tambi\'en g\'enero inconvenientes como la complejidad en la administraci\'on
+y sobre todo subutilizaci\'on de los recursos de cada computadora, lo cual dio cabida a la aplicaci\'on
+del concepto de la virtualizaci\'on.\\
+La virtualizacion sigue siendo una tendencia tecnológica muy interesante y seg\'un 
+Garnert Inc, en un centro de datos actual, casi la mitad de los servidores basados en 
+X86 est\'an virtualizadas, entre los motivos que las empresas adoptan la virtualizaci\'on
+son la consolidaci\'on de hardware de los servidores, mejora la eficiencia operativa,
+optimizaci\'on de recursos limitados y reducci\'on de gastos de funcionameinto la virtualizaci\'on 
+de escritorios denominada VDI es similar al concepto de computaci\'on centralizada utilizada
+por los mainframe donde los usuarios se conectan a este, a trav\'es de un cliente ligero que es 
+limitado en recursos, de igual manera en un entorno de escritorios virtuales, el usuario est\'a conectado
+al servidor a trav\'es de un cliente ligero y utilizan las capacidades inform\'aticas de un servidor. Sin
+embargo, el usuario tiene la experiencia que maneja su propia instancia de sistema operativo de
+escritorio y aplicaciones, pero esa instancia se ejecuta en una maquina virtual alojada en un servidor
+fisico \cite{Agrawal2014}.\\
+Dadas las ventajas de utilizar los escritorios virtuales, la aplicaci\'on de los escritorios virtuales en
+entornos de educaci\'on superior se vuelven muy atractivo, como por ejemplo la implementaci\'on de infraestructura
+de escritorios virtuales en laboratorios acad\'emicos \cite{Chroback2014} y \cite{Enrique2016},  dio como resultado despues de 2 años de
+la implementaci\'on de la virtualizaci\'on de la infraestructura de escritorios en la Universidad de Economia
+en Wroclaw (Polonia) se reitera la eficiencia que promete en cuanto al uso de los recursoso y la oportunidad
+de accesder a software especializado desde cualquier dispositivo.\\
+\begin{bf}
+RESULTADOS\\ 
+\end{bf}
+Se determin\'o con tomas de valores en sitio el consumo de energ\'ia el\'ectrica de cadadEs una red de ordenadores con acceso restringido que solo pueden utilizar los 
+usuarios autorizados de una empresa/institución/grupo y que fomenta el intercambio
+de información entre los miembros de una empresa, con el objetivo fundamental de 
+asegurar una comunicación fluida entre los empleados o entre empleados y clientes, 
+uno de los cuatro laboratorios. A partir de los valores tomados se determin\'o 
+el consumo energ\'etico de cada laboratorio y se obtuvo el c\'alculo del valor
+a pagar, se considero una jornada acad\'emicoa de 9 horas y 6 di\'as laborables a la 
+semana ver tabla 1.\\
+La formula utilizada para el calculo de la potencia es $P(kw)=V*I$ donde $V$ es voltaje y $I$ es corriente
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{| c | c | c | c | c |}
+\hline
+\multicolumn{5}{ |c| }{ Consumo energetico} \\ \hline Unidad & LAB.S1 & LAB.302 & LAB.S2 & LAB.N1 \\ \hline Cantidad PC & 38 &
+ 26 & 26 & 32 \\ \hline Consumo Kwh & 2.38 & 1.84 & 1.84 & 2.40 \\ \hline Consumo Kwh 1 d\'ia & 21.38 &
+16.52 & 16.52 & 21.60 \\ \hline Valor Mensual & 34.47 & 26.64 & 26.64 & 34.82 \\ \hline
+\end{tabular}  
+\caption {Tabla de consumos energëticos y costos utilizando computadores de escritorios}
+\end{center}
+\end{table}
+\\
+\\
+\\
+\\\bibliographystyle{apacite} 
+\bibliography{M6_Alvarado_Unamuno_Eduardo}
+\end{document}
